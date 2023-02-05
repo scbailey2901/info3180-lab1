@@ -5,15 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Website - About</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"/> 
 </head>
 <body>
   <header>
+    <img src="{{url_for('static',filename='image.jpg')}}" alt="Shaneisia Bailey" align="center">
     <h1 align="center">Shaneisia Bailey</h1>
     <p align="center"><em>Future Software Engineer/Full-Stack Developer</em></p>
+    <br>
   </header>
   <br>
-  <hr>
-  <h2 align="left">About</h2>
-  <p align="justify">Shaneisia Bailey is a 22 year old past student of Westwood High School, who hails from Golden Grove in the beautiful parish of St. Ann. She is currently pursuing a Bachelor's degree in Software Engineering at the University of the West Indies. She enjoys reading novels, listening to music, watching Marvel movies and talking about current affairs with friends and family. </p>
-</body>
+  <main>
+    <h2 align="left">About</h2>
+    <p align="justify">Shaneisia Bailey is a 22 year old past student of Westwood High School, who hails from Golden Grove in the beautiful parish of St. Ann. She is currently pursuing a Bachelor's degree in Software Engineering at the University of the West Indies. She enjoys reading novels, listening to music, watching Marvel movies, learning new languages and talking about current affairs with friends and family. </p>
+  </main>
+  </body>
 </html>
